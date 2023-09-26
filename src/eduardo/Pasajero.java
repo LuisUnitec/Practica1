@@ -1,7 +1,7 @@
 package eduardo;
 
 public class Pasajero {
-    public String nombre;
+    public String id,nombre;
     public int cantViajesRealizados;
 
     @Override

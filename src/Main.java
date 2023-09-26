@@ -13,6 +13,7 @@ public class Main {
         System.out.println(c);
         System.out.println(c2);
 
+        Conductor conductor = new Conductor();
 
         Pasajero p = new Pasajero();
 
