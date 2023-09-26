@@ -1,3 +1,5 @@
+import MauRubi.pasajero;
+
 public class Main {
     public static void main(String[] args) {
         Calificacion c = new Calificacion();
@@ -12,6 +14,12 @@ public class Main {
         System.out.println(c2);
 
         Conductor conductor = new Conductor();
+
+        pasajero pasajero = new pasajero();
+        pasajero.nombre = "MauRubi";
+        pasajero.cantViajesRealizados = 5 ;
+
+        System.out.println(pasajero);
 
     }
 }
