@@ -1,3 +1,5 @@
+import aiko.Pasajero;
+
 public class Main {
     public static void main(String[] args) {
         Calificacion c = new Calificacion();
@@ -13,5 +15,10 @@ public class Main {
 
         Conductor conductor = new Conductor();
 
+        Pasajero p = new Pasajero();
+        p.nombre = "David";
+        p.cantViajesRealizados = 5;
+
+        System.out.println(p);
     }
 }
