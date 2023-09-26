@@ -1,3 +1,5 @@
+import angelDuque.Pasajero;
+
 public class Main {
     public static void main(String[] args) {
         Calificacion c = new Calificacion();
@@ -12,6 +14,12 @@ public class Main {
         System.out.println(c2);
 
         Conductor conductor = new Conductor();
+
+        Pasajero pasajero = new Pasajero();
+        pasajero.nombre = "Angel Duque ";
+        pasajero.cantViajesRealizados = 16;
+
+        System.out.println(pasajero);
 
     }
 }
