@@ -13,5 +13,11 @@ public class Main {
 
         Conductor conductor = new Conductor();
 
+        Pasajero pasajero = new Pasajero();
+        pasajero.nombre = "Luis:";
+        pasajero.cantViajesRealizados =5;
+
+        System.out.println(pasajero);
+
     }
 }
