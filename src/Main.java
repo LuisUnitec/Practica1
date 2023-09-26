@@ -1,3 +1,5 @@
+import Alex.Pasajero;
+
 public class Main {
     public static void main(String[] args) {
         Calificacion c = new Calificacion();
@@ -12,6 +14,9 @@ public class Main {
         System.out.println(c2);
 
         Conductor conductor = new Conductor();
-
+        Pasajero pas = new Pasajero();
+        pas.nombre = "Luis";
+        pas.cantViajesReal = 5;
+        System.out.println(pas);
     }
 }
